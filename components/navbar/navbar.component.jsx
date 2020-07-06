@@ -18,12 +18,18 @@ export const NavBar = () => {
           </Link>
         </Nav.Link>
         <Nav.Link>
-          <a className="nav-item" href="https://github.com/Ktoxcon">
-            Github
-          </a>
+          <Link href="https://github.com/Ktoxcon">
+            <a className="nav-item">Github</a>
+          </Link>
         </Nav.Link>
-        <Nav.Link href="/">About</Nav.Link>
+        <Nav.Link>
+          <Link href="/about">
+            <a className="nav-item">About</a>
+          </Link>
+        </Nav.Link>
       </Nav>
     </Navbar>
   );
 };
+
+export default NavBar;
