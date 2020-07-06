@@ -6,14 +6,8 @@ import Banner from "../components/banner/banner.component";
 export default function Home() {
   return (
     <>
-      <style jsx>{`
-        .banner {
-          padding-top: 100px;
-        }
-      `}</style>
       <NavBar />
-      <br />
-      <div className="banner">
+      <div>
         <Banner />
       </div>
       <CardList />

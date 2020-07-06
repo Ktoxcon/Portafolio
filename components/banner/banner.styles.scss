@@ -1,28 +1,63 @@
 .banner {
-    min-width: 30%;
-    box-shadow: hue($color: #000000);    
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    height: 300px;
-    flex: 1 1 auto;
+  min-width: 30%;
+  box-shadow: hue($color: #000000);
+  height: 350px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: 1px solid #000000;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+  &.large {
+    height: 380px;
+  }
+
+  &:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
+  .background-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: radial-gradient(
+      circle farthest-corner at 12.3% 19.3%,
+      rgba(85, 88, 218, 1) 0%,
+      rgba(95, 209, 249, 1) 100.2%
+    );
+  }
+
+  .content {
+    height: 90px;
+    padding: 0 25px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-color: 1px solid #000000;
-    overflow: hidden;
-    border-radius: 15px;
-    margin: 0 7.5px 15px;
-  
+    position: absolute;
+    border-radius: 10px;
+
     .title {
       font-weight: bold;
       margin-bottom: 6px;
-      font-size: 80px;
-      color: #ebe0e0;
+      font-size: 75px;
+      color: #ffffff;
     }
 
     .subtitle {
       font-weight: lighter;
-      color:grey;
+      color: grey;
       font-size: 16px;
     }
   }
-  
+}

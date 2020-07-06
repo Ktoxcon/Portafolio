@@ -5,8 +5,13 @@ import "./banner.styles.scss";
 const Banner = () => {
   return (
     <div className="banner">
-      <h1 className="title"> Portafolio </h1>
-      <span className="subtitle">Top</span>
+      <div
+        className="background-image"
+      />
+      <div className="content">
+        <h1 className="title"> Portafolio </h1>
+        <span className="subtitle"></span>
+      </div>
     </div>
   );
 };
