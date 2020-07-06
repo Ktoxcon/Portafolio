@@ -1,16 +1,15 @@
 import Navbar from "react-bootstrap/Navbar";
-import Nav from 'react-bootstrap/Nav'
-
+import Nav from "react-bootstrap/Nav";
+import Link from "next/link";
 
 export const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-      <Nav className="mr-auto">
-        <Nav.Link href="#home">Home</Nav.Link>
-        <Nav.Link href="#features">Features</Nav.Link>
-        <Nav.Link href="#pricing">Pricing</Nav.Link>
-      </Nav>
+      <Navbar.Brand>
+        <Link href="/">
+          <a className="navbar-brand-p">KToxcon</a>
+        </Link>
+      </Navbar.Brand>
     </Navbar>
   );
 };
