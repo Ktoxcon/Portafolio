@@ -1,11 +1,14 @@
 import React from "react";
 import { NavBar } from "../../components/navbar/navbar.component";
+import Banner from "../../components/banner/banner.component";
 
 const Index = () => {
   return (
     <>
       <NavBar />
-      <h1>New Page</h1>
+      <div>
+        <Banner title="Proyectos" />
+      </div>
     </>
   );
 };
