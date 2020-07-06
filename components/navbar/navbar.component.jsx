@@ -12,21 +12,21 @@ export const NavBar = () => {
         </Link>
       </Navbar.Brand>
       <Nav className="mr-auto">
-        <Nav.Link>
-          <Link href="/projects">
+        <Nav.Item>
+          <Link  href="/projects">
             <a className="nav-item">Projects</a>
           </Link>
-        </Nav.Link>
-        <Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
           <Link href="https://github.com/Ktoxcon">
             <a className="nav-item">Github</a>
           </Link>
-        </Nav.Link>
-        <Nav.Link>
-          <Link href="/about">
-            <a className="nav-item">About</a>
+        </Nav.Item>
+        <Nav.Item>
+          <Link href="/contact">
+            <a className="nav-item">Contact</a>
           </Link>
-        </Nav.Link>
+        </Nav.Item> 
       </Nav>
     </Navbar>
   );
