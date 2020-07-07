@@ -10,44 +10,46 @@ class CardList extends React.Component {
         {
           title: "Biblioteca",
           grade: "4to",
-          imageUrl: "https://i.ibb.co/bd37MBV/Captura-de-pantalla-62.png",
           id: 1,
-          linkUrl: "shop/hats",
-        },{
-          title: "Biblioteca",
-          grade: "4to",
-          imageUrl: "https://i.ibb.co/bd37MBV/Captura-de-pantalla-62.png",
-          id: 1,
-          linkUrl: "shop/hats",
-        },{
-          title: "Biblioteca",
-          grade: "4to",
-          imageUrl: "https://i.ibb.co/bd37MBV/Captura-de-pantalla-62.png",
-          id: 1,
-          linkUrl: "shop/hats",
-        },{
-          title: "Biblioteca",
-          grade: "4to",
-          imageUrl: "https://i.ibb.co/bd37MBV/Captura-de-pantalla-62.png",
-          id: 1,
-          linkUrl: "shop/hats",
+          link: "/projects/4/biblioteca",
         },
-      ],
+        {
+          title: "Hospital de Inf.",
+          grade: "5to",
+          id: 2,
+          link: "/projects/5/hospital",
+        },
+        {
+          title: "Twitter Clone",
+          grade: "6to",
+          id: 3,
+          link: "/projects/6/twitter",
+        },
+        {
+          title: "KToxcon",
+          grade: "6to",
+          id: 4,
+          link: "/projects/6/portfolio",
+        }
+      ]
     };
   }
 
   render() {
     return (
       <div className="card-list">
-        {this.state.sections.map(({ title, grade, imageUrl, id, size }) => (
-          <Card
-            key={id}
-            title={title}
-            grade={grade}
-            imageUrl={imageUrl}
-            size={size}
-          />
-        ))}
+        {this.state.sections.map(
+          ({ title, grade, bgColor, id, size, link }) => (
+            <Card
+              key={id}
+              link={link}
+              title={title}
+              grade={grade}
+              bgColor={bgColor}
+              size={size}
+            />
+          )
+        )}
       </div>
     );
   }
