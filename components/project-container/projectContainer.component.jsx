@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import "./project-container.styles.scss";
 
 let easing = [0.6, -0.05, 0.01, 0.99];
 
@@ -27,51 +28,38 @@ const fadeInUp = {
   },
 };
 
-const ProjectContainer = (props) => (
+const ProjectContainer = ({ project }) => (
   <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
     <div className="fullscreen">
-      <div className="product">
+      <div className="project">
         <motion.div
           className="img"
           animate={{ opacity: 1 }}
           initial={{ opacity: 0 }}
         >
           <motion.img
-            key={props.product.image}
-            src={props.product.image}
+            key={project.id}
+            src={project.image}
             animate={{ x: 0, opacity: 1 }}
             initial={{ x: 200, opacity: 0 }}
             exit={{ opacity: 0 }}
             transition={{ delay: 0.2 }}
           />
         </motion.div>
-        <div className="product-details">
+        <div className="project-details">
           <motion.div variants={stagger} className="inner">
-            <Link href="/">
+            <Link href="/projects">
               <motion.div variants={fadeInUp}>
                 <a className="go-back">Volver</a>
               </motion.div>
             </Link>
+            <motion.h1 variants={fadeInUp}>{project.name}</motion.h1>
+            <motion.p variants={fadeInUp}>{project.description}</motion.p>
+            <motion.p variants={fadeInUp}>Habilidades</motion.p>
             <motion.div variants={fadeInUp}>
-              <span className="category">Protein</span>
-            </motion.div>
-            <motion.h1 variants={fadeInUp}>{props.product.name}</motion.h1>
-            <motion.p variants={fadeInUp}>{props.product.details}</motion.p>
-            <motion.div variants={fadeInUp} className="additonals">
-              <span>Soy Free</span>
-              <span>Gluten Free</span>
-            </motion.div>
-            <motion.div variants={fadeInUp} className="qty-price">
-              <div className="qty">
-                <div className="minus">-</div>
-                <div className="amount">1</div>
-                <div className="add">+</div>
-              </div>
-              <span className="price">{props.product.price}</span>
-            </motion.div>
-            <motion.div variants={fadeInUp} className="btn-row">
-              <button className="add-to-cart"> Add to cart</button>
-              <button className="subscribe"> Subscribe</button>
+              {project.skills.map((skill) => (
+                <li>{skill}</li>
+              ))}
             </motion.div>
           </motion.div>
         </div>
