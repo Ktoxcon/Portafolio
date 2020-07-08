@@ -9,7 +9,7 @@ const Hospital = () => {
     description:
       "Sistema para administrar un Hospital, mediante una interfaz gráfica y base de datos.",
     skills: ["Java", "JavaFX", "MySQL"],
-    image: "",
+    image: "https://i.pinimg.com/originals/d7/ab/5f/d7ab5f8402e2d08ae29259c898d2f19c.gif",
   };
 
   return (

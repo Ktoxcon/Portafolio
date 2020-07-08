@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className="sub-content">
         <Sub title="Kenneth Toxcon" content="Desarrollador Web y Móvil" />
-        <ImageSubBanner img="" />
+        <ImageSubBanner img="https://i.ibb.co/bvQp038/3327590.jpg" />
       </div>
     </>
   );

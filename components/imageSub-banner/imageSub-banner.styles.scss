@@ -6,7 +6,13 @@
   background-color: whitesmoke;
   display: flex;
   flex-direction: column;
-  justify-items: center;
-  align-items: center;
   margin: 20px;
+
+  .img-background {
+    height: inherit;
+    height: inherit;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+
 }

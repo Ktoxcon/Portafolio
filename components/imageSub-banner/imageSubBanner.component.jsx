@@ -4,7 +4,9 @@ import "./imageSub-banner.styles.scss";
 const ImageSubBanner = ({ img }) => {
   return (
     <>
-      <div className="img-banner" style={{ backgroundImage: `${img}` }}></div>
+      <div className="image-banner">
+        <img className="img-background" src={img} alt="Alt"/>
+      </div>
     </>
   );
 };
