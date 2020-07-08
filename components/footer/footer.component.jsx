@@ -1,9 +1,9 @@
-import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import "./footer.styles.scss";
 
 const Footer = () => {
   return (
-    <MDBFooter color="cyan" className="font-small darken-3 pt-0">
+    <MDBFooter className="font-small darken-3 pt-0 footer">
       <MDBContainer>
         <MDBRow>
           <MDBCol md="12" className="py-5">
