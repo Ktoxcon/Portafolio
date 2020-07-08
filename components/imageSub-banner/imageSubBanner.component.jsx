@@ -1,7 +1,7 @@
 import React from "react";
-import "./image-banner.styles.scss";
+import "./imageSub-banner.styles.scss";
 
-const ImageBanner = ({ img }) => {
+const ImageSubBanner = ({ img }) => {
   return (
     <>
       <div className="img-banner" style={{ backgroundImage: `${img}` }}></div>
@@ -9,4 +9,4 @@ const ImageBanner = ({ img }) => {
   );
 };
 
-export default ImageBanner;
+export default ImageSubBanner;

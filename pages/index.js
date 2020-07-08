@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Banner from "../components/banner/banner.component";
+import ImageSubBanner from "../components/imageSub-banner/imageSubBanner.component";
 import Sub from "../components/sub-banner/sub.component";
-import ImageBanner from "../components/image-banner/imageBanner.component";
+import Banner from "../components/banner/banner.component";
 
 export default function Home() {
   return (
@@ -10,11 +10,11 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <div>
-        <Banner title="Kenneth Toxcon" />
+        <Banner title="Bienvenido"/>
       </div>
       <div className="sub-content">
         <Sub title="Kenneth Toxcon" content="Desarrollador Web y Móvil" />
-        <ImageBanner img="" />
+        <ImageSubBanner img="" />
       </div>
     </>
   );

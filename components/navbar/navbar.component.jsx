@@ -7,10 +7,6 @@ export const NavBar = () => {
   return (
     <Navbar bg="dark" variant="dark">
       <Navbar.Brand>
-        <img
-          className="d-inline-block align-top"
-          src="https://img.icons8.com/doodle/48/000000/linux-client.png"
-        />
         <Link href="/">
           <a className="navbar-brand-personal">KToxcon</a>
         </Link>
