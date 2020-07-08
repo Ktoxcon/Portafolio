@@ -9,7 +9,7 @@ const Index = () => {
         <title>Contact</title>
       </Head>
       <div>
-        <Banner title="Contactame" />
+        <Banner title="Contáctame" />
       </div>
     </>
   );

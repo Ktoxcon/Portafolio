@@ -22,11 +22,6 @@ export const NavBar = () => {
             <a className="nav-item">Contacto</a>
           </Link>
         </Nav.Item>
-        <Nav.Item>
-          <Link href="https://github.com/Ktoxcon">
-            <a className="nav-item">Github</a>
-          </Link>
-        </Nav.Item>
       </Nav>
     </Navbar>
   );
