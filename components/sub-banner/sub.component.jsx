@@ -1,7 +1,7 @@
 import React from "react";
 import "./sub.styles.scss";
 
-const Sub = ({ title, content }) => {
+const Sub = ({ title, content, img }) => {
   return (
     <>
       <div className="sub-banner">
@@ -11,6 +11,7 @@ const Sub = ({ title, content }) => {
         </div>
         <div className="body">
           <p className="content">{content}</p>
+          {img ? <img className="optional" src={img} /> : null}
         </div>
       </div>
     </>

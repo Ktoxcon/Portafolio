@@ -10,10 +10,14 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <div>
-        <Banner title="Bienvenido"/>
+        <Banner title="Bienvenido" />
       </div>
       <div className="sub-content">
-        <Sub title="Kenneth Toxcon" content="Desarrollador Web y Móvil" />
+        <Sub
+          title="Kenneth Toxcon"
+          content="Desarrollador Web y Móvil"
+          img="https://inizsoft.com/wp-content/uploads/2020/01/website-min.gif"
+        />
         <ImageSubBanner img="https://i.ibb.co/bvQp038/3327590.jpg" />
       </div>
     </>
