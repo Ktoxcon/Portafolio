@@ -62,7 +62,10 @@ const ProjectContainer = ({ project }) => (
               ))}
             </motion.div>
             <motion.div variants={fadeInUp}>
-              {project.repository}
+              <div>
+                <h5>Repositorio</h5>
+                {project.repository}
+              </div>
             </motion.div>
           </motion.div>
         </div>
