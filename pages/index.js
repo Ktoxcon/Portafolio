@@ -20,7 +20,7 @@ export default function Home() {
           img="https://inizsoft.com/wp-content/uploads/2020/01/website-min.gif"
         />
         <ImageSubBanner img="https://i.ibb.co/bvQp038/3327590.jpg" />
-        <Directory titleGrid="Habilidades" />
+        <Directory />
       </div>
     </>
   );

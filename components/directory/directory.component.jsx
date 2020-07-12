@@ -10,27 +10,10 @@ class Directory extends React.Component {
         {
           id: 1,
           title: "Java",
-          imageUrl: "https://i.ibb.co/2gPw3z4/descarga.png",
+          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
           percent: "75%",
         },
-        {
-          id: 1,
-          title: "Java",
-          imageUrl: "https://i.ibb.co/2gPw3z4/descarga.png",
-          percent: "75%",
-        },
-        {
-          id: 1,
-          title: "Java",
-          imageUrl: "https://i.ibb.co/2gPw3z4/descarga.png",
-          percent: "75%",
-        },
-        {
-          id: 1,
-          title: "Java",
-          imageUrl: "https://i.ibb.co/2gPw3z4/descarga.png",
-          percent: "75%",
-        },
+        
       ],
     };
   }
@@ -38,7 +21,6 @@ class Directory extends React.Component {
   render() {
     return (
       <div className="directory-menu">
-        <h2>{this.props.titleGrid}</h2>
         {this.state.sections.map(({ title, imageUrl, id, percent }) => (
           <MenuItem
             key={id}
