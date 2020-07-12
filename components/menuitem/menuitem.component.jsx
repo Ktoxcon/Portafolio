@@ -10,9 +10,9 @@ const MenuItem = ({ title, imageUrl, size, percent }) => {
           backgroundImage: `url(${imageUrl})`,
         }}
       />
-      <div className="content-menuitem">
-        <h1 className="menu-title"> {title.toUpperCase()} </h1>
-        <span className="menu-subtitle">{percent}</span>
+      <div className="content">
+        <h1 className="title"> {title.toUpperCase()} </h1>
+        <span className="subtitle">{percent}</span>
       </div>
     </div>
   );
