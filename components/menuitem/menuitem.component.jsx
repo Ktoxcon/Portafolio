@@ -11,8 +11,8 @@ const MenuItem = ({ title, imageUrl, size, percent }) => {
         }}
       />
       <div className="content-menuitem">
-        <h1 className="title"> {title.toUpperCase()} </h1>
-        <span className="subtitle">{percent}</span>
+        <h1 className="menu-title"> {title.toUpperCase()} </h1>
+        <span className="menu-subtitle">{percent}</span>
       </div>
     </div>
   );
