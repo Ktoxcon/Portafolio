@@ -10,6 +10,7 @@ const Twitter = () => {
       "Simulación de la API de Twitter manejada a través de comandos en Postman",
     skills: ["JavaScript", "Express", "API"],
     image: "https://www.brandemia.org/sites/default/files/inline/images/twitter_logo_colores.gif",
+    repository:"https://github.com/Ktoxcon/twitter-clone.git"
   };
 
   return (

@@ -55,11 +55,14 @@ const ProjectContainer = ({ project }) => (
             </Link>
             <motion.h1 variants={fadeInUp}>{project.name}</motion.h1>
             <motion.p variants={fadeInUp}>{project.description}</motion.p>
-            <motion.p variants={fadeInUp}>Habilidades</motion.p>
+            <motion.p variants={fadeInUp}>Tecnologías Empleadas</motion.p>
             <motion.div variants={fadeInUp}>
               {project.skills.map((skill) => (
                 <li>{skill}</li>
               ))}
+            </motion.div>
+            <motion.div variants={fadeInUp}>
+              {project.repository}
             </motion.div>
           </motion.div>
         </div>

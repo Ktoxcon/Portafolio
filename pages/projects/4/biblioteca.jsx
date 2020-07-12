@@ -10,6 +10,7 @@ const Biblioteca = () => {
       "Sistema para administración de una biblioteca por medio de la consola y memoria dinámica",
     skills: ["Java", "Estructuras de datos", "Memoria Dinámica"],
     image: "https://i.ibb.co/Ht48YNL/bb.png",
+    repository:""
   };
 
   return (
