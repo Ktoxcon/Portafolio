@@ -13,6 +13,25 @@ class Directory extends React.Component {
           imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
           percent: "75%",
         },
+        {
+          id: 1,
+          title: "Java",
+          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
+          percent: "75%",
+        },
+        {
+          id: 1,
+          title: "Java",
+          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
+          percent: "75%",
+        },
+        {
+          id: 1,
+          title: "Java",
+          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
+          percent: "75%",
+        },
+
         
       ],
     };
