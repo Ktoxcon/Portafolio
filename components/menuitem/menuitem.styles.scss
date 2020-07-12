@@ -19,7 +19,7 @@
       transform: scale(2.2);
       transition: transform 12s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       border-radius: 20px;
-      
+      z-index: -1;
     }
 
     & .content-menuitem {
@@ -45,6 +45,7 @@
     background-position: center;
     background-size: cover;
     border-radius: 20px;
+    z-index: -1;
   }
 
   .content-menuitem {
