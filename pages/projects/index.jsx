@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import React from "react";
 import Head from "next/head";
 import Banner from "../../components/banner/banner.component";
@@ -13,7 +12,9 @@ const Index = () => {
       <div>
         <Banner title="Proyectos" />
       </div>
-      <CardList />
+      <div>
+        <CardList />
+      </div>
     </>
   );
 };

@@ -35,6 +35,34 @@ class Directory extends React.Component {
             "https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png",
           percent: "50%",
         },
+        {
+          id: 5,
+          title: "Rust",
+          imageUrl:
+            "https://www.bleepstatic.com/content/hl-images/2017/02/05/Rust.jpg",
+          percent: "80%",
+        },
+        {
+          id: 6,
+          title: "HTML",
+          imageUrl:
+            "https://4.bp.blogspot.com/-nM8twWVfQHU/WIGzpGGUteI/AAAAAAAAxp8/VyVyhtphl4cRjlKiYkcqYYcNK9NiL98cQCLcB/s1600/html5.png",
+          percent: "75%",
+        },
+        {
+          id: 7,
+          title: "CSS",
+          imageUrl:
+            "https://www.inventum.bg/wp-content/uploads/2018/02/css.png",
+          percent: "70%",
+        },
+        {
+          id: 8,
+          title: "Flutter",
+          imageUrl:
+            "https://cdn.dribbble.com/users/17559/screenshots/6664357/figma.png",
+          percent: "50%",
+        },
       ],
     };
   }

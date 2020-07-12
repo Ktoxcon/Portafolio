@@ -1,0 +1,21 @@
+.media-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    box-shadow: 10px 10px 8px -4px rgba(0,0,0,0.75);
+    border-color: 1px solid #000000;
+    border-radius: 15px;
+    width: 600px;
+    height: 420px;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: grey;
+        }
+    }
+}
