@@ -64,7 +64,9 @@ const ProjectContainer = ({ project }) => (
             <motion.div variants={fadeInUp}>
               <div>
                 <h5>Repositorio</h5>
-                {project.repository}
+                {project.repository
+                  ? project.repository
+                  : "Este proyecto no cuenta con un repositorio"}
               </div>
             </motion.div>
           </motion.div>
