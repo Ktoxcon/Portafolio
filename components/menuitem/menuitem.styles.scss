@@ -11,6 +11,7 @@
   margin: 0 7.5px 15px;
   box-shadow: 6px 8px 18px -6px rgba(0,0,0,0.75);
 
+
   &:hover {
     cursor: pointer;
 
@@ -18,9 +19,10 @@
       transform: scale(2.2);
       transition: transform 12s cubic-bezier(0.25, 0.45, 0.45, 0.95);
       border-radius: 20px;
+      
     }
 
-    & .content {
+    & .content-menuitem {
       opacity: 25%;
     }
   }
