@@ -10,29 +10,31 @@ class Directory extends React.Component {
         {
           id: 1,
           title: "Java",
-          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
+          imageUrl:
+            "https://www.tutofox.com/wp-content/uploads/2019/08/Java-Inesem.jpg",
           percent: "75%",
         },
         {
-          id: 1,
-          title: "Java",
-          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
+          id: 2,
+          title: "Angular",
+          imageUrl:
+            "https://i1.wp.com/blog.enriqueoriol.com/wp-content/uploads/2018/01/AngularLogo.jpg?fit=1200%2C675",
           percent: "75%",
         },
         {
-          id: 1,
-          title: "Java",
-          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
-          percent: "75%",
+          id: 3,
+          title: "JavaScript",
+          imageUrl:
+            "https://miro.medium.com/max/3200/1*dt3SJbXiOILlXnZzIqJZOA.png",
+          percent: "70%",
         },
         {
-          id: 1,
-          title: "Java",
-          imageUrl: "https://cdn.worldvectorlogo.com/logos/java.svg",
-          percent: "75%",
+          id: 4,
+          title: "React",
+          imageUrl:
+            "https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png",
+          percent: "50%",
         },
-
-        
       ],
     };
   }
